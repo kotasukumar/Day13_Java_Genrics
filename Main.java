@@ -1,7 +1,6 @@
 package com.company;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 public class Main {
@@ -10,12 +9,12 @@ public class Main {
 
         System.out.println("Welcome to Test Maximum Program");
 
-        List<Integer> list = new ArrayList<>();
-        list.add(12);
-        list.add(9);
-        list.add(5);
+        List<Float> list = new ArrayList<>();
+        list.add(12.564f);
+        list.add(12.12f);
+        list.add(12.96f);
 
-        list.sort(Integer :: compareTo);
+        list.sort(Float :: compareTo);
         System.out.println("The maximum of three numbers is: " + list.get(list.size()-1));
     }
 }

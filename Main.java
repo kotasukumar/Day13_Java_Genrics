@@ -9,12 +9,12 @@ public class Main {
 
         System.out.println("Welcome to Test Maximum Program");
 
-        List<Float> list = new ArrayList<>();
-        list.add(12.564f);
-        list.add(12.12f);
-        list.add(12.96f);
+        List<String> list = new ArrayList<>();
+        list.add("sukumar");
+        list.add("bridgelabz");
+        list.add("india");
 
-        list.sort(Float :: compareTo);
+        list.sort(String :: compareTo);
         System.out.println("The maximum of three numbers is: " + list.get(list.size()-1));
     }
 }
